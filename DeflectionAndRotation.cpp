@@ -10,7 +10,7 @@
 //  of the USAF F-16c wing when idealized as a cantilever beam with a uniformly distributed load
 // along the length of the cantilever beam. The user can calculate these values in increments 
 // of 0.05 meters of the cantilever beam of span (L) by inputting the span of the cantilever beam in meters, 
-// the distributed load (w) in N/m, the Young’s Modulus of the material of the beam (E) in Pascals,
+// the distributed load (w) in N/m, the Youngâ€™s Modulus of the material of the beam (E) in Pascals,
 // and the base and height of the rectangular section. The formula I = (b*h^3)/12 will be used to
 // calculate the area moment of inertia of the rectangular cross-section (I), a necessary variable in
 // the calculation of the deflection and slope.
@@ -36,7 +36,7 @@ cin >> a;
 cout << "Enter the weight of the distributed load (w) on the cantilever beam: ";	// in N/m
 cin >> w;
 
-cout << "Enter the Young’s Modulus of the material of the beam: ";			// in Pa
+cout << "Enter the Youngâ€™s Modulus of the material of the beam: ";			// in Pa
 cin >> E;
 
 cout << "Enter the base and height dimensions of the rectangular cross-section (I)" << endl;
