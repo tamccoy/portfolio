@@ -31,7 +31,7 @@ cout << "Enter the length of the rectangle in meters or feet: ";	// Enter length
 cin >> l;
 cout << "Enter the width of the rectangle in meters or feet: ";		// Enter width of rectangle
 cin >> w;
-A = l * w;															// Area = length * width
+A = l * w;										// Area = length * width
 cout << setiosflags(ios:: fixed)
 << setiosflags(ios::showpoint)
 << setprecision(4)
@@ -44,7 +44,7 @@ cout << "Enter the major axis of the ellipse in meters or feet: ";		// Enter len
 cin >> major;
 cout << "Enter the minor axis of the ellipse meters or feet: ";			// Enter length of minor axis of ellipse 
 cin >> minor;
-A = 3.1416 * major * minor;												// Area = pi*major axis*minor axis
+A = 3.1416 * major * minor;							// Area = pi*major axis*minor axis
 cout << setiosflags(ios:: fixed)
 << setiosflags(ios::showpoint)
 << setprecision(4)
@@ -65,11 +65,11 @@ if (shape == 'a'||  shape == 'b'||  shape == 'c')
 	cin >> Ta;
 	t = Ts - Ta;
 	AIRCONV = 2.8;
-	q = AIRCONV * A * t;								// q = hA(Ts-Ta)
+	q = AIRCONV * A * t;						// q = hA(Ts-Ta)
 	cout << "The heat transfer rate of the rectangular area is: " << q << " W or J/s" << endl;
 	}
 
-else													// For all values other than a,b, and c
+else									// For all values other than a,b, and c
 {
 cout << "An invalid shape was entered.";
 cout << endl;
